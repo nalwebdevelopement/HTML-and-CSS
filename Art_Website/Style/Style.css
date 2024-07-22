@@ -1,0 +1,218 @@
+
+*
+{
+    margin:0;
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    list-style:none;
+    background-color:beige;
+}
+header h1
+{
+    font-family: Times New Roman, Times, serif;
+    color:chocolate;
+     font-size: 100px;
+     text-align: center;
+}
+hr
+{
+    border: 2px solid burlywood;
+}
+
+nav ul
+{
+    background-color:beige;
+    display: flex;
+    list-style-type: none;
+    padding: 12px;
+    justify-content:space-evenly;
+  
+
+}
+.mainImg
+{
+    width: 100%;
+    height: 150vh;
+}
+.mainMsg h2
+{ 
+    
+    background-color:bisque;
+    text-align: center;
+    width:100vw;
+    font-size: 100px;
+    color:goldenrod;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+/* Makes the main  the image to fade*/
+.mainImg
+{
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+.mainImg:hover
+{
+    transition-duration: 2s;
+    opacity: .5;
+}
+/* Makes the main  the image to fade*/
+#contact
+{
+    transition-property: font-size;
+    transition-duration: 2s;
+}
+#contact:hover
+{
+    font-size: 50px ;
+}
+.mainMsg, .mainMsg1
+{
+   
+    justify-content: center;
+    align-items: center;    
+    opacity: .4;
+} 
+.mainMsg
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contactBut
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#contact
+{
+    background-color: bisque;
+    color:black;
+    width: 150px 150px;
+    padding: 16px 32px;
+    border:none;
+    font-size: 25px;
+    border-radius: 20px;
+}
+#contact:hover
+{
+    background-color: aliceblue;
+}
+
+
+/* COntact styling*/
+
+.contactForm,.galleryForm,.courseForm
+{
+   
+   
+   display: flex;  
+   justify-content: center;
+ 
+   flex-direction: column;
+   align-items: center;
+  
+}
+#heading
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+    font-size:100px
+}
+.contactName
+{
+    display: flex;
+}
+.contactForm h2::first-letter{
+    font-size:200%;
+    
+}
+#contactForm
+{
+   /* background-color: blue;*/
+    border:2px solid black;
+}
+.im
+{
+    width: 200px;
+    height:200px;
+}
+.galleryImage
+{
+    padding:40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-wrap: wrap;
+    display: flex;
+  /*  background-color: chartreuse;*/
+   /* width: 50%px;*/
+   
+}
+.desc
+{
+    padding:25px;
+    margin: 20px;
+    flex-basis: 25%;
+    
+    background-color: black;
+    align-items: center;
+}
+.desc p
+{
+    justify-content: center;
+    display:flex;
+}
+.desc img
+{
+    flex-basis: 50%;
+}
+/* Table */
+
+
+.course table{
+    border: 2px solid rgb(18, 19, 18);
+    table-layout: auto;
+  /*  margin-left: 200px;*/
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+section {
+    border: solid purple;
+    border-width: 0.2px;
+    height: 30vh;
+    margin: 1em;
+   
+    
+  }
+  table{
+    border: 2px solid rgb(18, 19, 18);
+    table-layout: auto;
+  /*  margin-left: 200px;*/
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+ th
+{
+    border: 2px solid rgb(16, 16, 17);
+   
+}
+ td
+{
+    border: 2px solid rgb(23, 23, 23);
+    text-align: left;
+}
+table ,th, td
+{
+    background-color: rgb(145, 157, 153);
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+}
+tr:hover
+{
+    background-color: rgb(214, 152, 129);
+}
