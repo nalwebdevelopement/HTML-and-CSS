@@ -22,11 +22,36 @@ hr
 
 nav ul
 {
-    background-color:beige;
+    background-color:rgb(26, 26, 23);
     display: flex;
     list-style-type: none;
     padding: 12px;
-    justify-content:space-evenly;
+    margin-left:auto;
+    
+}
+.nav_bar
+{
+    height: 120px;
+    background-color: antiquewhite;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow:1;
+
+}
+
+.logo
+{
+    width:100px;
+    height:100px;
+    
+}
+
+.nav_bar li,a
+{
+    align-items: center;
+    background-color:rgb(240, 240, 4);
+ 
   
 
 }
@@ -135,6 +160,15 @@ nav ul
    /* background-color: blue;*/
     border:2px solid black;
 }
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 .im
 {
     width: 200px;
