@@ -34,17 +34,25 @@ nav ul
     height: 120px;
     background-color: antiquewhite;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-grow:1;
+    padding: 20px;
+   
 
 }
+
 
 .logo
 {
     width:100px;
     height:100px;
+    margin: 4px;
     
+}
+.logo-wrapper
+{
+    margin-left:auto;
 }
 
 .nav_bar li,a
@@ -62,12 +70,12 @@ nav ul
 }
 .mainMsg h2
 { 
-    
-    background-color:bisque;
+    mix-blend-mode: screen;
+    background-color:rgb(54, 20, 189);
     text-align: center;
     width:100vw;
     font-size: 100px;
-    color:goldenrod;
+    color:rgb(235, 12, 27);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
 /* Makes the main  the image to fade*/
@@ -104,6 +112,8 @@ nav ul
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+   
+
 }
 .contactBut
 {
